@@ -8,6 +8,7 @@ What is IDE?
 A.IDE stands for Integrated Development Environment and enables users to write and debug programs.Examples:Eclipse,IntelliJ.
 What are the IDEs available in the market to support java?
 Explain the entire java life cycle.
+User writes source code in an editor using IDE and the java compiler (javac) converts it to a class file called bytecode(.class). The bytecode gets executed by the JVM.
 what is class?
 What is object?
 What is the entry point of an application?
