@@ -1,33 +1,39 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.A set of instructions that can be used to produce various kinds of output.
+A set of instructions that can be used to produce various kinds of output.
 
 What jdk contains or composed of and define each components?
-A.JDK contains JRE along with development tools such as compiler,debugger etc.JDK is a super set of JRE.
+JDK contains JRE along with development tools such as compiler,debugger etc.JDK is a super set of JRE.
   JRE - JRE is the environment where JVM runs.It contains JVM,class libraries, and other files.
   Compiler - Converts source code(.java) into byte code(.class).
   Debugger - The Java Debugger,jdb, is a simple command-line debugger for java class.
 What is IDE?
-A.IDE stands for Integrated Development Environment and enables users to write and debug programs.Examples:Eclipse,IntelliJ.
+IDE stands for Integrated Development Environment and enables users to write and debug programs.Examples:Eclipse,IntelliJ.
 
 What are the IDEs available in the market to support java?
 Eclipse,IntelliJ IDEA,NetBeans,Codeenvy,DrJava,BlueJ,JGrasp etc.
+
 Explain the entire java life cycle.
 User writes source code in an editor using IDE and the java compiler (javac) converts it to a class file called bytecode(.class). The bytecode gets executed by the JVM.
 what is class?
 A class is a blueprint from which individual objects are created.It describes the behavior/state of the object.
+
 What is object?
 Object is a bundle of data and its behavior. A car has states - color,model,vin number and behavior can be
 forward and  reverse biased and break.
+
 What is the entry point of an application?
 The entry point is a class having a method with signature public static void main(String[] args).
+
 Why main is static?
 We do not need to create object for static methods to run.They can run itself.
+
 Which class is the superclass of all classes?
 Object class in the java.lang package.   BASE CLASS IS  java.lang.object
+
 What is difference between path and classpath variables?
-Path variable is used to set the path for all java software tools such as javac.exe,
+Path variable is used to set the path for all java software tools such as javac.exe.
 Class path is used to set the path for java classes.
 
 What is the difference between an Interface and Abstract class?
@@ -67,13 +73,16 @@ List of API: java.io,  java.lang,  java.util.Random,   java.util.Scanner,  java.
 
 Does java support multiple inheritance, explain why or why not?
 No,Java does not allow multiple inheritance to avoid the ambiguity caused by it.
+
 What is method overloading and when it happens?
 In method overloading we can have multiple methods with the same name and same or different return type.
 All these  method must have different parameters for the same return type.It is a part of java polymorphism
 OOP principals.
+
 Explain exceptions in java and how to handle it.
 An exception is an unwanted or unexpected event, which occurs during the execution of a program (at run time)
 and it disrupts the normal flow of the program’s instructions.
+
 What is static keyword in java? How it has been used in variables and methods ?
 The static keyword in Java is used for memory management mainly. We can apply java static keyword with variables,
 methods, blocks and nested class. The static keyword belongs to the class than an instance of the class.
@@ -82,7 +91,7 @@ without reference to any object.
 What is final and how it has been used variables and methods?
 final keyword is used in different contexts. First of all,final is a non-access modifier applicable only to
 a variable, a method or a class.Following are different contexts where final is used. When a variable is
-declared with final keyword, its value can't bemodified, essentially, a constant. final (Java) ...
+declared with final keyword, its value can't be modified, essentially, a constant. final (Java) ...
 Once a final variable has been assigned, it always contains the same value. If a final variable holds
 a reference to an object, then the state of the object may be changed by operations on the object,
 but the variable will always refer to the same object (this property of final is called non-transitivity).
@@ -94,7 +103,7 @@ What is final, finally and finalize?
 Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
 Finally is used to place important code, it will be executed whether exception is handled or not.Finalize
 is used to perform clean up processing just before object is garbage collected. 2) Final is a keyword.
-final: final is a keyword. The variable decleared as final should be initialized only once and cannot be changed.
+final: final is a keyword. The variable declared as final should be initialized only once and cannot be changed.
 Java classes declared as final cannot be extended. Methods declared as final cannot be overridden. ... finalize:
 finalize is a method.
 

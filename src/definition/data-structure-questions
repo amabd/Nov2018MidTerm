@@ -52,9 +52,11 @@ of the program's underlying algorithm, the faster it will run and the better it 
 
 
 what is the best case to search an element from an array?
-
+If we could perform search and get what we want in just one computational approach, that is,we find the element
+as the first instance, then that is known as O(1). Time complexity here falls into best case category.
 what is the worst case to search an element from an array?
-
+When an algorithm results into many iterations/recursions ('n' times it had to perform )to get
+the result then the algorithm describe its worst case time complexity.
 
 what is tree in data structure?
 Tree data structure is useful on occasions where linear representation of data do not suffice,
